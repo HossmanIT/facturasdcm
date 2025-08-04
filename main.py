@@ -14,7 +14,7 @@ app = FastAPI(
     version=settings.API_VERSION
 )
 
-@app.post("/sync-recent-invoicesdcm")
+@app.post("/sync-recent-invoicesfdcm")
 async def sync_recent_invoices(db: Session = Depends(get_db)):
     """Endpoint para sincronizar facturas recientes con Monday.com y actualizar SQL"""
     try:
