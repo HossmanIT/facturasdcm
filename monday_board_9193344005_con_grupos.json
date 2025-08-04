@@ -1,0 +1,856 @@
+{
+  "board_info": {
+    "id": "9193344005",
+    "name": "Facturas DC",
+    "description": null,
+    "state": "active"
+  },
+  "columns": [
+    {
+      "id": "name",
+      "title": "Name",
+      "type": "name",
+      "settings_str": "{}"
+    },
+    {
+      "id": "multiple_person_mkr4t3sp",
+      "title": "Encargado",
+      "type": "people",
+      "settings_str": "{\"hide_footer\":false}"
+    },
+    {
+      "id": "status",
+      "title": "Estado de factura",
+      "type": "status",
+      "settings_str": "{\"done_colors\":[1],\"color_mapping\":{\"6\":101,\"101\":6},\"labels\":{\"0\":\"Sol cancelación\",\"1\":\"Done\",\"2\":\"Cancelada\",\"3\":\"Original\",\"4\":\"Dev.Parc.\",\"6\":\"Aprobado cancelacion\"},\"labels_positions_v2\":{\"0\":0,\"1\":2,\"2\":1,\"5\":3},\"labels_colors\":{\"0\":{\"color\":\"#fdab3d\",\"border\":\"#e99729\",\"var_name\":\"orange\"},\"1\":{\"color\":\"#00c875\",\"border\":\"#00b461\",\"var_name\":\"green-shadow\"},\"2\":{\"color\":\"#df2f4a\",\"border\":\"#ce3048\",\"var_name\":\"red-shadow\"},\"3\":{\"color\":\"#007eb5\",\"border\":\"#3db0df\",\"var_name\":\"blue-links\"},\"4\":{\"color\":\"#9d50dd\",\"border\":\"#9238af\",\"var_name\":\"purple\"},\"6\":{\"color\":\"#ff7575\",\"border\":\"#ff7575\",\"var_name\":\"sunset\"}}}"
+    },
+    {
+      "id": "color_mkr4r255",
+      "title": "Estado Almacén",
+      "type": "status",
+      "settings_str": "{\"done_colors\":[1],\"labels\":{\"1\":\"Surtido\",\"2\":\"Vencido\",\"5\":\"Por surtri\"},\"labels_colors\":{\"1\":{\"color\":\"#00c875\",\"border\":\"#00b461\",\"var_name\":\"green-shadow\"},\"2\":{\"color\":\"#df2f4a\",\"border\":\"#ce3048\",\"var_name\":\"red-shadow\"},\"5\":{\"color\":\"#c4c4c4\",\"border\":\"#b0b0b0\",\"var_name\":\"grey\"}}}"
+    },
+    {
+      "id": "text_mkr4r61z",
+      "title": "Vendedor",
+      "type": "text",
+      "settings_str": "{}"
+    },
+    {
+      "id": "text_mknkr94f",
+      "title": "Cliente",
+      "type": "text",
+      "settings_str": "{}"
+    },
+    {
+      "id": "text_mknk2qt",
+      "title": "Referencia Cliente",
+      "type": "text",
+      "settings_str": "{}"
+    },
+    {
+      "id": "date4",
+      "title": "Fecha de factura",
+      "type": "date",
+      "settings_str": "{}"
+    },
+    {
+      "id": "date_mknkfx2h",
+      "title": "Fecha de pago",
+      "type": "date",
+      "settings_str": "{\"hide_footer\":false,\"calcType\":\"earliest\"}"
+    },
+    {
+      "id": "file_mknkcyz5",
+      "title": "Factura",
+      "type": "file",
+      "settings_str": "{}"
+    },
+    {
+      "id": "text_mkq36w8v",
+      "title": "Moneda",
+      "type": "text",
+      "settings_str": "{}"
+    },
+    {
+      "id": "numeric_mknkwc1",
+      "title": "Tipo de cambio",
+      "type": "numbers",
+      "settings_str": "{\"unit\":{\"symbol\":\"$\",\"custom_unit\":\"\",\"direction\":\"left\"}}"
+    },
+    {
+      "id": "numeric_mknkb26y",
+      "title": "Total del documento",
+      "type": "numbers",
+      "settings_str": "{\"unit\":{\"symbol\":\"$\",\"custom_unit\":\"\",\"direction\":\"left\"}}"
+    },
+    {
+      "id": "numeric_mknk6qv1",
+      "title": "Total moneda ext",
+      "type": "numbers",
+      "settings_str": "{\"unit\":{\"symbol\":\"$\",\"custom_unit\":\"\",\"direction\":\"left\"}}"
+    },
+    {
+      "id": "dropdown_mkr4hd19",
+      "title": "Dropdown",
+      "type": "dropdown",
+      "settings_str": "{\"hide_footer\":false}"
+    }
+  ],
+  "column_mapping": {
+    "name": "Name",
+    "multiple_person_mkr4t3sp": "Encargado",
+    "status": "Estado de factura",
+    "color_mkr4r255": "Estado Almacén",
+    "text_mkr4r61z": "Vendedor",
+    "text_mknkr94f": "Cliente",
+    "text_mknk2qt": "Referencia Cliente",
+    "date4": "Fecha de factura",
+    "date_mknkfx2h": "Fecha de pago",
+    "file_mknkcyz5": "Factura",
+    "text_mkq36w8v": "Moneda",
+    "numeric_mknkwc1": "Tipo de cambio",
+    "numeric_mknkb26y": "Total del documento",
+    "numeric_mknk6qv1": "Total moneda ext",
+    "dropdown_mkr4hd19": "Dropdown"
+  },
+  "groups": [
+    {
+      "group_id": "group_mksg3ws0",
+      "group_title": "Julio",
+      "group_color": "#fdab3d",
+      "items_count": 1,
+      "items": [
+        {
+          "id": "9511987817",
+          "name": "test",
+          "state": "active",
+          "created_at": "2025-07-03T08:16:03Z",
+          "updated_at": "2025-07-03T08:16:03Z",
+          "group_info": {
+            "id": "group_mksg3ws0",
+            "title": "Julio"
+          },
+          "column_data": {
+            "Encargado": {
+              "column_id": "multiple_person_mkr4t3sp",
+              "type": "people",
+              "text": "",
+              "raw_value": null
+            },
+            "Estado de factura": {
+              "column_id": "status",
+              "type": "status",
+              "text": null,
+              "raw_value": null
+            },
+            "Estado Almacén": {
+              "column_id": "color_mkr4r255",
+              "type": "status",
+              "text": "Por surtri",
+              "raw_value": null
+            },
+            "Vendedor": {
+              "column_id": "text_mkr4r61z",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Cliente": {
+              "column_id": "text_mknkr94f",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Referencia Cliente": {
+              "column_id": "text_mknk2qt",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de factura": {
+              "column_id": "date4",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de pago": {
+              "column_id": "date_mknkfx2h",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Factura": {
+              "column_id": "file_mknkcyz5",
+              "type": "file",
+              "text": "",
+              "raw_value": null
+            },
+            "Moneda": {
+              "column_id": "text_mkq36w8v",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Tipo de cambio": {
+              "column_id": "numeric_mknkwc1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total del documento": {
+              "column_id": "numeric_mknkb26y",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total moneda ext": {
+              "column_id": "numeric_mknk6qv1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Dropdown": {
+              "column_id": "dropdown_mkr4hd19",
+              "type": "dropdown",
+              "text": null,
+              "raw_value": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "group_mksgj19b",
+      "group_title": "Junio",
+      "group_color": "#00c875",
+      "items_count": 1,
+      "items": [
+        {
+          "id": "9511988279",
+          "name": "testjn",
+          "state": "active",
+          "created_at": "2025-07-03T08:16:09Z",
+          "updated_at": "2025-07-03T08:16:09Z",
+          "group_info": {
+            "id": "group_mksgj19b",
+            "title": "Junio"
+          },
+          "column_data": {
+            "Encargado": {
+              "column_id": "multiple_person_mkr4t3sp",
+              "type": "people",
+              "text": "",
+              "raw_value": null
+            },
+            "Estado de factura": {
+              "column_id": "status",
+              "type": "status",
+              "text": null,
+              "raw_value": null
+            },
+            "Estado Almacén": {
+              "column_id": "color_mkr4r255",
+              "type": "status",
+              "text": "Por surtri",
+              "raw_value": null
+            },
+            "Vendedor": {
+              "column_id": "text_mkr4r61z",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Cliente": {
+              "column_id": "text_mknkr94f",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Referencia Cliente": {
+              "column_id": "text_mknk2qt",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de factura": {
+              "column_id": "date4",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de pago": {
+              "column_id": "date_mknkfx2h",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Factura": {
+              "column_id": "file_mknkcyz5",
+              "type": "file",
+              "text": "",
+              "raw_value": null
+            },
+            "Moneda": {
+              "column_id": "text_mkq36w8v",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Tipo de cambio": {
+              "column_id": "numeric_mknkwc1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total del documento": {
+              "column_id": "numeric_mknkb26y",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total moneda ext": {
+              "column_id": "numeric_mknk6qv1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Dropdown": {
+              "column_id": "dropdown_mkr4hd19",
+              "type": "dropdown",
+              "text": null,
+              "raw_value": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "group_mkqx2j5g",
+      "group_title": "Mayo",
+      "group_color": "#66ccff",
+      "items_count": 1,
+      "items": [
+        {
+          "id": "9511989615",
+          "name": "testmy",
+          "state": "active",
+          "created_at": "2025-07-03T08:16:16Z",
+          "updated_at": "2025-07-03T08:16:16Z",
+          "group_info": {
+            "id": "group_mkqx2j5g",
+            "title": "Mayo"
+          },
+          "column_data": {
+            "Encargado": {
+              "column_id": "multiple_person_mkr4t3sp",
+              "type": "people",
+              "text": "",
+              "raw_value": null
+            },
+            "Estado de factura": {
+              "column_id": "status",
+              "type": "status",
+              "text": null,
+              "raw_value": null
+            },
+            "Estado Almacén": {
+              "column_id": "color_mkr4r255",
+              "type": "status",
+              "text": "Por surtri",
+              "raw_value": null
+            },
+            "Vendedor": {
+              "column_id": "text_mkr4r61z",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Cliente": {
+              "column_id": "text_mknkr94f",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Referencia Cliente": {
+              "column_id": "text_mknk2qt",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de factura": {
+              "column_id": "date4",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de pago": {
+              "column_id": "date_mknkfx2h",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Factura": {
+              "column_id": "file_mknkcyz5",
+              "type": "file",
+              "text": "",
+              "raw_value": null
+            },
+            "Moneda": {
+              "column_id": "text_mkq36w8v",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Tipo de cambio": {
+              "column_id": "numeric_mknkwc1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total del documento": {
+              "column_id": "numeric_mknkb26y",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total moneda ext": {
+              "column_id": "numeric_mknk6qv1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Dropdown": {
+              "column_id": "dropdown_mkr4hd19",
+              "type": "dropdown",
+              "text": null,
+              "raw_value": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "group_mkq7v3d4",
+      "group_title": "Abril",
+      "group_color": "#9d50dd",
+      "items_count": 1,
+      "items": [
+        {
+          "id": "9511990432",
+          "name": "testab",
+          "state": "active",
+          "created_at": "2025-07-03T08:16:19Z",
+          "updated_at": "2025-07-03T08:16:19Z",
+          "group_info": {
+            "id": "group_mkq7v3d4",
+            "title": "Abril"
+          },
+          "column_data": {
+            "Encargado": {
+              "column_id": "multiple_person_mkr4t3sp",
+              "type": "people",
+              "text": "",
+              "raw_value": null
+            },
+            "Estado de factura": {
+              "column_id": "status",
+              "type": "status",
+              "text": null,
+              "raw_value": null
+            },
+            "Estado Almacén": {
+              "column_id": "color_mkr4r255",
+              "type": "status",
+              "text": "Por surtri",
+              "raw_value": null
+            },
+            "Vendedor": {
+              "column_id": "text_mkr4r61z",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Cliente": {
+              "column_id": "text_mknkr94f",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Referencia Cliente": {
+              "column_id": "text_mknk2qt",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de factura": {
+              "column_id": "date4",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de pago": {
+              "column_id": "date_mknkfx2h",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Factura": {
+              "column_id": "file_mknkcyz5",
+              "type": "file",
+              "text": "",
+              "raw_value": null
+            },
+            "Moneda": {
+              "column_id": "text_mkq36w8v",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Tipo de cambio": {
+              "column_id": "numeric_mknkwc1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total del documento": {
+              "column_id": "numeric_mknkb26y",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total moneda ext": {
+              "column_id": "numeric_mknk6qv1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Dropdown": {
+              "column_id": "dropdown_mkr4hd19",
+              "type": "dropdown",
+              "text": null,
+              "raw_value": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "group_mkp04rzz",
+      "group_title": "Marzo",
+      "group_color": "#579bfc",
+      "items_count": 1,
+      "items": [
+        {
+          "id": "9511991259",
+          "name": "testmz",
+          "state": "active",
+          "created_at": "2025-07-03T08:16:22Z",
+          "updated_at": "2025-07-03T08:16:22Z",
+          "group_info": {
+            "id": "group_mkp04rzz",
+            "title": "Marzo"
+          },
+          "column_data": {
+            "Encargado": {
+              "column_id": "multiple_person_mkr4t3sp",
+              "type": "people",
+              "text": "",
+              "raw_value": null
+            },
+            "Estado de factura": {
+              "column_id": "status",
+              "type": "status",
+              "text": null,
+              "raw_value": null
+            },
+            "Estado Almacén": {
+              "column_id": "color_mkr4r255",
+              "type": "status",
+              "text": "Por surtri",
+              "raw_value": null
+            },
+            "Vendedor": {
+              "column_id": "text_mkr4r61z",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Cliente": {
+              "column_id": "text_mknkr94f",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Referencia Cliente": {
+              "column_id": "text_mknk2qt",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de factura": {
+              "column_id": "date4",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de pago": {
+              "column_id": "date_mknkfx2h",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Factura": {
+              "column_id": "file_mknkcyz5",
+              "type": "file",
+              "text": "",
+              "raw_value": null
+            },
+            "Moneda": {
+              "column_id": "text_mkq36w8v",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Tipo de cambio": {
+              "column_id": "numeric_mknkwc1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total del documento": {
+              "column_id": "numeric_mknkb26y",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total moneda ext": {
+              "column_id": "numeric_mknk6qv1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Dropdown": {
+              "column_id": "dropdown_mkr4hd19",
+              "type": "dropdown",
+              "text": null,
+              "raw_value": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "group_mknkakr3",
+      "group_title": "Febrero",
+      "group_color": "#e2445c",
+      "items_count": 1,
+      "items": [
+        {
+          "id": "9511992245",
+          "name": "testfb",
+          "state": "active",
+          "created_at": "2025-07-03T08:16:27Z",
+          "updated_at": "2025-07-03T08:16:27Z",
+          "group_info": {
+            "id": "group_mknkakr3",
+            "title": "Febrero"
+          },
+          "column_data": {
+            "Encargado": {
+              "column_id": "multiple_person_mkr4t3sp",
+              "type": "people",
+              "text": "",
+              "raw_value": null
+            },
+            "Estado de factura": {
+              "column_id": "status",
+              "type": "status",
+              "text": null,
+              "raw_value": null
+            },
+            "Estado Almacén": {
+              "column_id": "color_mkr4r255",
+              "type": "status",
+              "text": "Por surtri",
+              "raw_value": null
+            },
+            "Vendedor": {
+              "column_id": "text_mkr4r61z",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Cliente": {
+              "column_id": "text_mknkr94f",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Referencia Cliente": {
+              "column_id": "text_mknk2qt",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de factura": {
+              "column_id": "date4",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de pago": {
+              "column_id": "date_mknkfx2h",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Factura": {
+              "column_id": "file_mknkcyz5",
+              "type": "file",
+              "text": "",
+              "raw_value": null
+            },
+            "Moneda": {
+              "column_id": "text_mkq36w8v",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Tipo de cambio": {
+              "column_id": "numeric_mknkwc1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total del documento": {
+              "column_id": "numeric_mknkb26y",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total moneda ext": {
+              "column_id": "numeric_mknk6qv1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Dropdown": {
+              "column_id": "dropdown_mkr4hd19",
+              "type": "dropdown",
+              "text": null,
+              "raw_value": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "group_title",
+      "group_title": "Enero",
+      "group_color": "#a25ddc",
+      "items_count": 1,
+      "items": [
+        {
+          "id": "9511993584",
+          "name": "testen",
+          "state": "active",
+          "created_at": "2025-07-03T08:16:32Z",
+          "updated_at": "2025-07-03T08:16:32Z",
+          "group_info": {
+            "id": "group_title",
+            "title": "Enero"
+          },
+          "column_data": {
+            "Encargado": {
+              "column_id": "multiple_person_mkr4t3sp",
+              "type": "people",
+              "text": "",
+              "raw_value": null
+            },
+            "Estado de factura": {
+              "column_id": "status",
+              "type": "status",
+              "text": null,
+              "raw_value": null
+            },
+            "Estado Almacén": {
+              "column_id": "color_mkr4r255",
+              "type": "status",
+              "text": "Por surtri",
+              "raw_value": null
+            },
+            "Vendedor": {
+              "column_id": "text_mkr4r61z",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Cliente": {
+              "column_id": "text_mknkr94f",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Referencia Cliente": {
+              "column_id": "text_mknk2qt",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de factura": {
+              "column_id": "date4",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Fecha de pago": {
+              "column_id": "date_mknkfx2h",
+              "type": "date",
+              "text": "",
+              "raw_value": null
+            },
+            "Factura": {
+              "column_id": "file_mknkcyz5",
+              "type": "file",
+              "text": "",
+              "raw_value": null
+            },
+            "Moneda": {
+              "column_id": "text_mkq36w8v",
+              "type": "text",
+              "text": "",
+              "raw_value": null
+            },
+            "Tipo de cambio": {
+              "column_id": "numeric_mknkwc1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total del documento": {
+              "column_id": "numeric_mknkb26y",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Total moneda ext": {
+              "column_id": "numeric_mknk6qv1",
+              "type": "numbers",
+              "text": "",
+              "raw_value": null
+            },
+            "Dropdown": {
+              "column_id": "dropdown_mkr4hd19",
+              "type": "dropdown",
+              "text": null,
+              "raw_value": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "total_items": 7,
+  "total_groups": 7
+}
