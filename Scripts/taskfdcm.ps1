@@ -1,6 +1,6 @@
 # Ruta de los scripts Python
-$transferScript = "C:\Mondayapp\facturasdcm\transferfdcm.py"
-$syncScript = "C:\Mondayapp\facturasdcm\sync_scriptfdcm.py"
+$transferScript = "C:\FastAPI\facturasdcm\transferfdcm.py"
+$syncScript = "C:\FastAPI\facturasdcm\sync_scriptfdcm.py"
 $logFile = "C:\Logs\facturasdcm.log"
 $transferOut = "C:\Logs\transfer_salidafdcm.log"
 $transferErr = "C:\Logs\transfer_errorfdcm.log"
